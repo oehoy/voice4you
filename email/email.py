@@ -3,7 +3,6 @@
 import curses
 import wikipedia 
 
-
 def main():
 	print "Wikipedia Voice4You v.0.1\n"
 	wikipedia.set_lang("ru")

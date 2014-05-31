@@ -87,15 +87,15 @@ while getin != ord('5'):
 	  os.system('python ./wikipedia/wiki.py')#run    
   elif getin == ord('2'): # Topmenu option 2
 	  curses.endwin()
-	  #os.system('mplayer http://xn--80aefq4abio.xn--p1ai:8000&')#run 2
-	  #os.system('mplayer http://listen.radonline.ru:9000/radioonline192&')
-	  os.system('')
+	  os.system('python ./wikipedia/radio.py')
   elif getin == ord('3'): # Topmenu option 3
-    os.system('') #run 3
-  elif getin == ord('4'): # Topmenu option 3
-    os.system('') #run 4
+	  curses.endwin()
+	  os.system('python ./qiwi/qiwi_shop.py')
+  elif getin == ord('4'): # Topmenu option 
+	  curses.endwin()
+	  os.system('python ./qiwi/qiwi_shop.py') #run 4
   elif getin == ord('5'): # Topmenu option 4
-    curses.endwin() #VITAL!  This closes out the menu system and returns you to the bash prompt.
+	  curses.endwin() #VITAL!  This closes out the menu system and returns you to the bash prompt.
     
     
     

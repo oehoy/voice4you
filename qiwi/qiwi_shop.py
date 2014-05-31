@@ -11,7 +11,7 @@ def main():
 		elif (comand == "delete"):
 			print "delete"
 		elif  (comand== "help") or (comand== "h"):
-			print "help"
+			print "delete"
 		elif (comand== "exit") or (comand== "quit") or(comand== "q"):
 			break
 		
