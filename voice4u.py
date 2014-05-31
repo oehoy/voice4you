@@ -83,11 +83,13 @@ def topmenu():
 while getin != ord('5'):
   getin = topmenu() # Get the menu item selected on the top menu
   if getin == ord('1'):
-	  os.system('')#run    
+	  curses.endwin()
+	  os.system('python ./wikipedia/wiki.py')#run    
   elif getin == ord('2'): # Topmenu option 2
-    #os.system('mplayer http://xn--80aefq4abio.xn--p1ai:8000&')#run 2
-    #os.system('mplayer http://listen.radonline.ru:9000/radioonline192&')
-    os.system('')
+	  curses.endwin()
+	  #os.system('mplayer http://xn--80aefq4abio.xn--p1ai:8000&')#run 2
+	  #os.system('mplayer http://listen.radonline.ru:9000/radioonline192&')
+	  os.system('')
   elif getin == ord('3'): # Topmenu option 3
     os.system('') #run 3
   elif getin == ord('4'): # Topmenu option 3

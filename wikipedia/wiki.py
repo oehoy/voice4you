@@ -1,8 +1,16 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
+import curses
 import wikipedia 
 
+
 def main():
+	#scrn = curses.initscr()
+	#scrn.clear()
+	#curses.endwin()
+	#curses.echo()
+	#scrn.echo()
+	print "Wikipedia Voice4You v.0.1\n"
 	wikipedia.set_lang("ru")
 	while 1:
 		comand = raw_input("Введите название статьи: ")
