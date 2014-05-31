@@ -1,6 +1,6 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
-import curses
+import os
 import wikipedia 
 
 
@@ -13,9 +13,12 @@ def main():
 			try:
 				text = wikipedia.page(comand)
 				print text.content
+				os.system("echo \"Информация есть. Чит+ать?\" | festival --tts --language russian")
 				print "*"*100+"\n\n"
+				
 			except:
 				print "Статья не найдена"
+				os.system("echo \"Информации нет.\" | festival --tts --language russian")
 				print "*"*100+"\n\n"
 		elif (comand == "exit") or (comand== "quit") or(comand== "q"):
 			break
