@@ -1,7 +1,5 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
-# Topmenu and the submenus are based of the example found at this location http://blog.skeltonnetworks.co…..stom-menu/
-# The rest of the work was done by Matthew Bennett and he requests you keep these two mentions when you reuse the code 
 import curses, os #curses is the interface for capturing key presses on the menu, os launches the files
 screen = curses.initscr() #initializes a new window for capturing key presses
 curses.noecho()
