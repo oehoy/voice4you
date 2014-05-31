@@ -1,5 +1,11 @@
-#!/usr/bin/env python
-# -*- coding: utf-8 -*-
+#!/usr/bin/env python									#
+# -*- coding: utf-8 -*-									#
+#														#
+#       voice4u.py										#
+#       												#
+#       Copyright 2014 Oehoy <popov.md5@gmail.com>		#
+#														#
+#########################################################  
 import curses, os 
 screen = curses.initscr() 
 curses.noecho()
@@ -33,15 +39,15 @@ def topmenu():
     else:
       screen.addstr(7,4, "2. Online radio", n)
     if pos==3:
-      screen.addstr(8,4, "3. QIWI Shop", h)
+      screen.addstr(8,4, "3. E-mail", h)
       #os.system("echo \"Р+адио\" | festival --tts --language russian")
     else:
-      screen.addstr(8,4, "3. QIWI Shop", n)
+      screen.addstr(8,4, "3. E-mail", n)
     if pos==4:
-      screen.addstr(9,4, "4. E-mail", h)
+      screen.addstr(9,4, "4. QIWI Shop", h)
       #os.system("echo \"П+очта\" | festival --tts --language russian")
     else:
-      screen.addstr(9,4, "4. E-mail", n)
+      screen.addstr(9,4, "4. QIWI Shop", n)
       #os.system("echo \"Электр+онная почта\" | festival --tts --language russian")
     if pos==5:
       screen.addstr(10,4, "5. Exit", h)
