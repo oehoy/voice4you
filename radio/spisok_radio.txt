@@ -1,7 +1,7 @@
 http://xn--80aefq4abio.xn--p1ai:8000
-http://radio.bigbeats.ru:9054/
-http://www.dnbradio.com/hi.m3u
-http://www.bassdrive.com/v2/streams/BassDrive.pls
-http://station20.ru:8000/station-128.m3u
-http://radio3.promodeejay.net:8000/300kmh-192
-http://16bit.fm:9500/listen.pls
+"http://radio.bigbeats.ru:9054"
+"http://www.dnbradio.com/hi.m3u"
+"http://www.bassdrive.com/v2/streams/BassDrive.pls"
+"http://station20.ru:8000/station-128.m3u"
+"http://radio3.promodeejay.net:8000/300kmh-192"
+"http://16bit.fm:9500/listen.pls"

@@ -1,26 +1,20 @@
-#!/usr/bin/env python
-# -*- coding: utf-8 -*-
-import curses
-import wikipedia 
-
+#!/usr/bin/env python									#
+# -*- coding: utf-8 -*-		
 def main():
-	print "Wikipedia Voice4You v.0.1\n"
-	wikipedia.set_lang("ru")
+	print "EMAILS v.0.1\n"
 	while 1:
-		comand = raw_input("Введите название статьи: ")
-		if (comand != "exit"):
-			try:
-				text = wikipedia.page(comand)
-				print text.content
-				print "*"*100+"\n\n"
-			except:
-				print "Статья не найдена"
-				print "*"*100+"\n\n"
-		elif (comand == "exit") or (comand== "quit") or(comand== "q"):
+		comand = raw_input("Введите логин: ")
+		if (comand == "find"):
+			print "find"
+		elif  (comand== "clear") or (comand== "cls"):
+			print "cls"
+		elif (comand == "delete"):
+			print "delete"
+		elif  (comand== "help") or (comand== "h"):
+			print "delete"
+		elif (comand== "exit") or (comand== "quit") or(comand== "q"):
 			break
-	
-	return 0
-
+		
 if __name__ == '__main__':
 	main()
-
+			

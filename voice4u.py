@@ -84,16 +84,17 @@ while getin != ord('5'):
   getin = topmenu() # Get the menu item selected on the top menu
   if getin == ord('1'):
 	  curses.endwin()
-	  os.system('python ./wikipedia/wiki.py')#run    
+	  os.system('clear && python ./wikipedia/wiki.py')#run    
   elif getin == ord('2'): # Topmenu option 2
 	  curses.endwin()
-	  os.system('python ./wikipedia/radio.py')
+	  os.system('clear && python ./radio/radio.py')
   elif getin == ord('3'): # Topmenu option 3
 	  curses.endwin()
-	  os.system('python ./qiwi/qiwi_shop.py')
+	  os.system('clear && python ./email/email.py')
   elif getin == ord('4'): # Topmenu option 
 	  curses.endwin()
-	  os.system('python ./qiwi/qiwi_shop.py') #run 4
+	  os.system('clear && python ./qiwi/qiwi_shop.py')
+	   #run 4
   elif getin == ord('5'): # Topmenu option 4
 	  curses.endwin() #VITAL!  This closes out the menu system and returns you to the bash prompt.
     
